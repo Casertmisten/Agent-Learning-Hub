@@ -34,8 +34,8 @@ Agent 领域变化很快。当前更值得投入的不是老式“角色扮演�
 ### Stage 0: Understand What An Agent Is
 
 - [x] 区分 chatbot、workflow、agent、multi-agent。
-- [ ] 理解 agent 的基本循环：observe -> think -> act -> observe。
-- [ ] 明白什么时候不该用 agent：任务可预测、流程稳定、普通脚本能解决时，agent 反而增加不确定性。
+- [x] 理解 agent 的基本循环：observe -> think -> act -> observe。
+- [x] 明白什么时候不该用 agent：任务可预测、流程稳定、普通脚本能解决时，agent 反而增加不确定性。
 - [ ] 读完 [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)。
 - [ ] 读完 [OpenAI: A practical guide to building agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/)。
 
@@ -43,12 +43,12 @@ Agent 领域变化很快。当前更值得投入的不是老式“角色扮演�
 
 ### Stage 1: Build A Minimal Agent Loop
 
-- [ ] 会用一个 LLM API 完成普通对话。
-- [ ] 会让模型输出结构化 JSON。
-- [ ] 会定义一个工具函数，例如 search、calculator、read_file。
-- [ ] 会解析模型的 tool call / function call。
-- [ ] 会执行工具，并把工具结果喂回模型。
-- [ ] 会给 agent loop 加最大步数、超时和错误处理。
+- [x] 会用一个 LLM API 完成普通对话。
+- [x] 会让模型输出结构化 JSON。
+- [x] 会定义一个工具函数，例如 search、calculator、read_file。
+- [x] 会解析模型的 tool call / function call。
+- [x] 会执行工具，并把工具结果喂回模型。
+- [x] 会给 agent loop 加最大步数、超时和错误处理。
 
 推荐阅读：
 
@@ -60,7 +60,7 @@ Agent 领域变化很快。当前更值得投入的不是老式“角色扮演�
 
 ### Stage 2: Learn Tool Use, RAG, And Memory
 
-- [ ] 会做检索增强生成：chunk、embed、retrieve、answer with citations。
+- [x] 会做检索增强生成：chunk、embed、retrieve、answer with citations。
 - [ ] 会把搜索、数据库、文件、浏览器、代码执行接成工具。
 - [ ] 会区分短期上下文、会话记忆、长期记忆。
 - [ ] 会处理工具失败、空结果、重复调用、幻觉引用。
